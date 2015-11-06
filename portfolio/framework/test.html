@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/test.js"></script>
+		<link rel="stylesheet" href="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+		<link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+        <link href="css/test.css" rel="stylesheet" >
+    </head>
+    <body>
+	  <div class="main-page">
+	   <div class="container full-page">
+	    <div class="row header">
+	     <div class="col-md-6 logo">
+		   <img class="img-respponsive" src="images/logo.png" alt="This is Udacity logo" >
+		 </div>
+		 <div class="col-md-6 title text-right text-uppercase">
+		   <h1 class="heading">Charu Tiwari</h1>
+		   <h4><b>Front-End Developer</b></h4>
+		 </div>
+	    </div>
+	    <div class="row main-image">
+	     <div class="col-md-12">
+	      <img class="image img-respponsive" src="images/it.jpg" alt="This is main photo" >
+		 </div>
+	    </div>
+	   
+	   
+	    <h2 class="work text-uppercase">Featured Work</h2>
+		<div class="row footer text-center">
+	     <div class="col-md-4">
+		   <img class="footer-image-1 img-respponsive" data-toggle="modal" data-target="#project1" src="images/flowers.jpg" alt="This is the photo of flowers, this links to project-1." >
+		   <h4>PROJECT-IT Site</h4>
+		   <a href="https://charutiwari04@bitbucket.org/charutiwari04/portfolio-project.git">IT Sample Site</a>
+		 </div>
+		 <div class="col-md-4">
+		   <img class="footer-image-2 img-respponsive" data-toggle="modal" data-target="#project2" src="images/book.jpg" alt="This is the photo of Book, this links to project-2." >
+		   <h4>PROJECT-Resume</h4>
+		   <a href="www.github.com">http://www.github.com</a>
+		 </div>
+		 <div class="col-md-4">
+		   <img class="footer-image-3 img-respponsive" data-toggle="modal" data-target="#project3" src="images/cat.jpg" alt="This is the photo of Cat, this links to project-3." >
+		   <h4>PROJECT-3</h4>
+		   <a href="www.github.com">http://www.github.com</a>
+		 </div>
+	    </div>
+	   </div>
+	  
+<!-- Modal -->
+       <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+         <div class="modal-content">
+          <div class="modal-header">
+           <h4 class="modal-title" id="myModalLabel1">Favorite App Page</h4>
+           </div>
+            <div class="modal-body">
+             <img class="img-responsive" src="images/flowers.jpg" alt="This is the photo of flowers, this links to project-1.">
+              This was one of my first project in this class. I learned a lot about HTML and CSS.
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+         </div>
+        </div>
+       </div>
+
+       <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+         <div class="modal-content">
+          <div class="modal-header">
+           <h4 class="modal-title" id="myModalLabel2">Favorite App Page-2</h4>
+          </div>
+          <div class="modal-body">
+           <img class="img-responsive" src="images/book.jpg" alt="This is the photo of Book, this links to project-2.">
+            This was my second project in this class. I learned a lot about Responsive design.
+          </div>
+          <div class="modal-footer">
+           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+         </div>
+        </div>
+       </div>
+
+       <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+         <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel3">Favorite App Page-3</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/cat.jpg" alt="This is the photo of Cat, this links to project-3.">
+             This was my third project in this class. I learned a lot about Responsive Images and Bootstrap.
+          </div>
+          <div class="modal-footer">
+           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+	</body>
+</html>
