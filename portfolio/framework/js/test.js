@@ -1,0 +1,11 @@
+$(document).ready(function(){
+	$('.footer-image-1').click{
+	  $('#project1').modal('toggle');
+	}
+	$('.footer-image-2').click{
+	  $('#project2').modal('toggle');
+	}
+	$('.footer-image-3').click{
+	  $('#project3').modal('toggle');
+	}
+});

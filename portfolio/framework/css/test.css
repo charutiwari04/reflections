@@ -1,0 +1,57 @@
+.full-page{
+	margin: auto;
+	margin-bottom: 10px;
+}
+.header{
+	margin: 10px auto;
+	border-bottom: 4px solid #BCBBBB;
+	color: #BCBBBB;
+}
+.heading{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 42px;
+}
+.main-image img,.footer img,.modal img{
+	width: 100%;
+}
+
+.footer{
+	font-weight: bold;
+	color: #747704;
+}
+.footer a{
+	text-decoration: none;
+	color: #747704;
+}
+.work{
+	color: #bcbbbb;
+	margin-left: auto;
+}
+
+@media screen and (max-width : 360px){
+	
+	.heading,.work{
+		font-size: 15px;
+		
+	}
+	
+	.logo img{
+		width: 40px;
+		height: 40px;
+	}
+	
+}
+
+@media screen and (max-width : 991px){
+	
+	.heading{
+		font-size: 30px;
+		margin-top: -50px; 
+	}
+	.work{
+		
+		font-size: 30px;
+	}
+	
+}
